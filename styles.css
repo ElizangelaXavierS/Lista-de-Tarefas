@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'prompt',sans-serif;
+    background-color: rgb(146, 184, 240);
+}
+
+.logo{
+    width: 125px;
+    margin: 25px;
+    
+}
+
+main{
+    max-width: 786px;
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+h1, p{
+    color: #fff;
+    text-align: center;
+}
+
+.botao{
+    background-color: antiquewhite;
+    padding: 10px;
+    border: none;
+    flex: 1;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px ;
+    color: #0f1726;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.bt{
+    background-color: rgb(228, 179, 179);
+    width: 40%;
+    margin-top: 40px;
+}
