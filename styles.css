@@ -51,3 +51,48 @@ h1, p{
     width: 40%;
     margin-top: 40px;
 }
+
+.caixa{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#lista{
+    list-style: none;
+   }
+  
+   #lista > li{
+    background-color: #fff;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .excluir {
+        background-color: rgb(228, 179, 179);
+        width: 16px;
+        height: 16px;
+        line-height: 0%;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #tarefa-nova{
+        background-color: #fff;
+        border: 3px solid antiquewhite;
+        padding: 4px;
+        width: 80%;
+        height: 40px;
+        outline: none;
+        font-size: 14px;
+        color: #0f1726;
+        border-radius: 4px;
+        margin-top: 30px;
+    }
