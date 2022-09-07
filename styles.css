@@ -96,3 +96,11 @@ h1, p{
         border-radius: 4px;
         margin-top: 30px;
     }
+
+    .concluida span {
+        text-decoration: line-through;
+        color: #5ef0e8;
+    }
+    
+    
+    
